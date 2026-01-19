@@ -3,9 +3,7 @@
 **Lab:** 002 - Virtual Hosts e HTTPS  
 **Foco:** Múltiplos sites, certificados SSL, configuração avançada
 
----
-
-## 🚨 Problemas Mais Comuns
+## Problemas Mais Comuns
 
 ### 1. Virtual Host não Funciona
 
@@ -69,6 +67,8 @@ sudo nano /etc/nginx/sites-available/meusite
 # Adicionar: return 301 https://$server_name$request_uri;
 ```
 
----
 
-**Desenvolvido por:** Professor Alexandre Tavares - UniFAAT
+> [!NOTE]
+> **Desenvolvido por:** Professor Alexandre Tavares - UniFAAT  
+> **Versão:** 1.0 - Semestre 2026.1  
+> **Última atualização:** Janeiro 2025
